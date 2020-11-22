@@ -7,13 +7,11 @@
 
 # Usage: 
 Recommended: test in this order:
-´´´ sh
+``` sh
 $ ./test ./hsh
-
 $ ./test-create ./hsh
-
 $ ./test-rm ./hsh
-´´´
+```
 Add to existing files or create new files with a specific set of tests. Please name the files accordingly and add the filenames to the list above and the tests addeds to the list below.
 
 # Remember to compile using -o and hsh as the filename for the test files to run. 
