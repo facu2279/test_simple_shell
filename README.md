@@ -1,6 +1,6 @@
-# Test file of cohort 13 - Montevideo, Uruguay
-*remember to pull before editing something*
-*please add to the list below the tests you commit to the files*
+# Test file for simple_shell - Cohort 13 - Montevideo, Uruguay
+*remember to pull before editing something*\n
+*please add to the list below the tests you commit to the files*\n
 *also remember to add your teammates in the AUTHORS file*
 
 # Usage: 
