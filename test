@@ -16,4 +16,11 @@ echo -e "\n-----------------------------\ntest env\n----------------------------
 env
 echo -e "\n-----------------------------\ntest printenv\n-----------------------------\n"
 printenv
+echo -e "\n-----------------------------\ntest cd\n-----------------------------\n"
+cd
+echo -e "Expected output:\n" $HOME
+echo -e "\nYour output is:"
+pwd
+echo -e "\n-----------------------------\ntest cd with ..\n-----------------------------\n"
+cd .. | pwd
 echo -e "\n----END OF TEST----\n"
