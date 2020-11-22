@@ -14,10 +14,10 @@ $ ./test-rm ./hsh
 ```
 Add to existing files or create new files with a specific set of tests. Please name the files accordingly and add the filenames to the list above and the tests addeds to the list below.
 
-# Remember to compile using -o and hsh as the filename for the test files to run. 
+> Remember to compile using -o and hsh as the filename for the test files to run. 
 
-# Contemplated tests so far:
-# test
+## Contemplated tests so far:
+### test
 - ls
 - ls -args
 - env
@@ -27,12 +27,12 @@ Add to existing files or create new files with a specific set of tests. Please n
 - cd
 - cd args
 
-# test-create
+### test-create
 - mkdir
 - touch
 
-# test-rm
+### test-rm
 - rmdir
 - rm
 
-# happy coding!
+> happy coding!
