@@ -23,9 +23,4 @@ echo -e "\nYour output is:"
 pwd
 echo -e "\n-----------------------------\ntest cd with ..\n-----------------------------\n"
 cd .. | pwd
-echo -e "\n-----------------------------\ntest whereis test\n-----------------------------\n"
-whereis test
-echo -e "\n-----------------------------\ntest which ls\n-----------------------------\n"
-which ls
 echo -e "\n----END OF TEST----\n"
-
