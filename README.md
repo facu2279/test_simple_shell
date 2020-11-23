@@ -12,6 +12,8 @@ $ ./test ./hsh
 $ ./test-create ./hsh
 $ ./test-rm ./hsh
 $ ./test-exit-args ./hsh
+$ ./test-separators ./hsh
+$ ./test-comments ./hsh
 ```
 Add to existing files or create new files with a specific set of tests. Please name the files accordingly and add the filenames to the list above and the tests addeds to the list below.
 
