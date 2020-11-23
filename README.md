@@ -36,7 +36,7 @@ Add to existing files or create new files with a specific set of tests. Please n
 - rmdir
 - rm
 
-### test-rm
+### test-exit-args
  - exit 98
  
 > happy coding!
