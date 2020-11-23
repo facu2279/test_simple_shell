@@ -27,8 +27,6 @@ Add to existing files or create new files with a specific set of tests. Please n
 - ld
 - cd
 - cd args
-- whereis
-- which
 
 ### test-create
 - mkdir
