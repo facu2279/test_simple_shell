@@ -24,3 +24,4 @@ pwd
 echo -e "\n-----------------------------\ntest cd with ..\n-----------------------------\n"
 cd .. | pwd
 echo -e "\n----END OF TEST----\n"
+
