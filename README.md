@@ -11,6 +11,7 @@ Recommended: test in this order:
 $ ./test ./hsh
 $ ./test-create ./hsh
 $ ./test-rm ./hsh
+$ ./test-exit-args ./hsh
 ```
 Add to existing files or create new files with a specific set of tests. Please name the files accordingly and add the filenames to the list above and the tests addeds to the list below.
 
@@ -26,8 +27,6 @@ Add to existing files or create new files with a specific set of tests. Please n
 - ld
 - cd
 - cd args
-- exit args
-- exit
 
 ### test-create
 - mkdir
@@ -37,4 +36,7 @@ Add to existing files or create new files with a specific set of tests. Please n
 - rmdir
 - rm
 
+### test-rm
+ - exit 98
+ 
 > happy coding!
