@@ -24,3 +24,11 @@ pwd
 echo -e "\n-----------------------------\ntest cd with ..\n-----------------------------\n"
 cd .. | pwd
 echo -e "\n----END OF TEST----\n"
+echo -e "\n-----------------------------\ntest exit with arguments\n-----------------------------\n"
+exit 98
+echo -e "\n-----------------------------\\nexpected output \n 98\n-----------------------------\\n"
+echo $?
+echo -e "\n----END OF TEST----\n"
+echo -e "\n-----------------------------\ntest simple exit \n-----------------------------\n"
+exit 
+echo -e "\n----END OF TEST----\n"
