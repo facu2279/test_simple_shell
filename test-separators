@@ -18,3 +18,4 @@ echo -e "\n-----------------------------\ntest cat hola; ls\n-------------------
 cat hola ; ls
 echo -e "\n-----------------------------\ntest ls ; ls -la\n-----------------------------\\n"
 ls ; ls -la
+echo -e "\n----END OF TEST----\n"
