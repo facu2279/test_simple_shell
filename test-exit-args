@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -e "\n-----------------------------\ntest exit with arguments\n-----------------------------\n"
+echo -e "\n-----------------------------\\nexpected output \n 98\n-----------------------------\\n"
+exit 98
+echo $?
+echo -e "\n----END OF TEST----\n"
