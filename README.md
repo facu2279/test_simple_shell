@@ -43,6 +43,6 @@ Add to existing files or create new files with a specific set of tests. Please n
 - ;
 
 ### test-comments
-- #
+- \#
 
 > happy coding!
