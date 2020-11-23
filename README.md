@@ -38,5 +38,11 @@ Add to existing files or create new files with a specific set of tests. Please n
 
 ### test-exit-args
  - exit 98
- 
+
+### test-separators
+- ;
+
+### test-comments
+- #
+
 > happy coding!
