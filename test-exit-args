@@ -9,7 +9,6 @@ echo -e "\n-----------------------------\ntest exit \n--------------------------
 echo exi
 echo -e "\n-----------------------------\\nexpected output \n 'exi' - shell shouldnt exit \n-----------------------------\\n"
 echo -e "\n-----------------------------\ntest exit with arguments\n-----------------------------\n"
+echo -e "\n-----------------------------\\n Please insert echo '$?' in terminal >> expected output \n 98\n-----------------------------\\n"
 exit 98
-echo $?
-echo -e "\n-----------------------------\\nexpected output \n 98\n-----------------------------\\n"
 echo -e "\n----END OF TEST----\n"
