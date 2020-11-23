@@ -23,11 +23,9 @@ echo -e "\nYour output is:"
 pwd
 echo -e "\n-----------------------------\ntest cd with ..\n-----------------------------\n"
 cd .. | pwd
-echo -e "\n-----------------------------\ntest echo hola.txt\n-----------------------------\n"
-echo hola.txt
-echo -e "\n-----------------------------\ntest whereis hola.txt\n-----------------------------\n"
-whereis hola.txt
-echo -e "\n-----------------------------\ntest cd which hola.txt\n-----------------------------\n"
-which hola.txt
+echo -e "\n-----------------------------\ntest whereis test\n-----------------------------\n"
+whereis test
+echo -e "\n-----------------------------\ntest which ls\n-----------------------------\n"
+which ls
 echo -e "\n----END OF TEST----\n"
 
