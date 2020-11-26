@@ -7,4 +7,8 @@ echo -e "\n-----------------------------\nTEST TOUCH\n--------------------------
 touch test_touch
 echo -e "\nThe file 'test_touch' should be here\n"
 ls
+echo -e "\n------------------------------------\nTEST MULTIPLE TOUCH\n----------------\n"
+touch test_touch2 test_touch3 test_touch4
+echo -e "\nThe file 'test_touch2' and 'test_touch3' and 'test_touch4' should be here\n"
+ls
 echo -e "\n----END OF TEST----\n"

@@ -3,4 +3,8 @@ echo -e "\n-----------------------------\nTEST unset PATH\n---------------------
 unset PATH
 echo "ls" | ./hsh
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+echo -e "\n------------------------------\n Test empty path\n------------------------\n"
+export PATH=""
+echo "ls" | ./hsh
+exit
 echo -e "\n----END OF TEST----\n"
